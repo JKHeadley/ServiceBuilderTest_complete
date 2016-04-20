@@ -66,15 +66,6 @@
     <Compile Include="Application.cs" />
     <Compile Include="LogEvent.cs" />
     <Compile Include="LoggingContext.cs" />
-    <Compile Include="Migrations\201604192243154_init.cs" />
-    <Compile Include="Migrations\201604192243154_init.Designer.cs">
-      <DependentUpon>201604192243154_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201604192250431_ServiceBuilder_LogEvents.cs" />
-    <Compile Include="Migrations\201604192250431_ServiceBuilder_LogEvents.Designer.cs">
-      <DependentUpon>201604192250431_ServiceBuilder_LogEvents.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Privilege.cs" />
     <Compile Include="Organization.cs" />
     <Compile Include="ServiceBuilderTestContext.cs" />
@@ -89,14 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604192243154_init.resx">
-      <DependentUpon>201604192243154_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201604192250431_ServiceBuilder_LogEvents.resx">
-      <DependentUpon>201604192250431_ServiceBuilder_LogEvents.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
